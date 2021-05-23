@@ -23,7 +23,7 @@ Scenario: Add And Delete Paygrade
 	And the user clicks on the job drop down list
 	And the user clicks on Pay Grades
 	And the user click in the radio button for fefe
-	And the user clicks on the red Delete tab
+	#And the user clicks on the red Delete tab
 	#When the user clicks on the green OK button
 	#Then the pay grade should be successfully deleted
 	
