@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Grandma\\source\\repos\\OrangeHRMProjectJune\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {}
+    "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Grandma\\source\\repos\\OrangeHRMProjectJune\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {
+    "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Grandma\\source\\repos\\OrangeHRMProjectJune\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
+        "projectUniqueName": "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
         "projectName": "OrangeHRMProjectJune",
-        "projectPath": "C:\\Users\\Grandma\\source\\repos\\OrangeHRMProjectJune\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
+        "projectPath": "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
         "packagesPath": "C:\\Users\\Grandma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Grandma\\source\\repos\\OrangeHRMProjectJune\\OrangeHRMProjectJune\\obj\\",
+        "outputPath": "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

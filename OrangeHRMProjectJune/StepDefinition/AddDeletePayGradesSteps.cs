@@ -1,135 +1,149 @@
 ﻿using System;
 using TechTalk.SpecFlow;
+using OrangeHRM.PageObject;
+using System.Threading;
+using NUnit.Framework;
 
-namespace OrangeHRMProjectJune.StepDefinition
+namespace OrangeHRM.StepDefinition
 {
     [Binding]
     public class AddDeletePayGradesSteps
     {
+        AddDeletePayGrades addDeletePayGrades;
+
+        public AddDeletePayGradesSteps()
+        {
+            addDeletePayGrades = new AddDeletePayGrades();
+        }
+
+
+
         [Given(@"that I navigate to ""(.*)""")]
-        public void GivenThatINavigateTo(string p0)
+        public void GivenThatINavigateTo(string url)
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.NavigateToUrl(url);
         }
-        
+
+
         [Given(@"the user enter admin username ""(.*)""")]
-        public void GivenTheUserEnterAdminUsername(string p0)
+        public void GivenTheUserEnterAdminUsername(string Username)
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.EnterUsername(Username);
         }
-        
+
         [Given(@"the user enter admin password ""(.*)""")]
-        public void GivenTheUserEnterAdminPassword(string p0)
+        public void GivenTheUserEnterAdminPassword(string Password)
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.EnterPassword(Password);
         }
-        
+
+
         [Given(@"the user clicks the orange login button")]
         public void GivenTheUserClicksTheOrangeLoginButton()
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.ClickOnLoginButton();
         }
-        
+
         [Given(@"the user clicks on admin tab")]
         public void GivenTheUserClicksOnAdminTab()
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.ClickOnAdmin();
         }
-        
+
         [Given(@"the user clicks on the job drop down list")]
         public void GivenTheUserClicksOnTheJobDropDownList()
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.ClickOnJob();
         }
-        
+
         [Given(@"the user clicks on Pay Grades")]
         public void GivenTheUserClicksOnPayGrades()
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.ClickOnPayGrades();
         }
-        
+
         [Given(@"the user clicks on the green Add tab")]
         public void GivenTheUserClicksOnTheGreenAddTab()
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.ClickOnAddTab();
         }
-        
+
         [Given(@"the user enters name ""(.*)""")]
-        public void GivenTheUserEntersName(string p0)
+        public void GivenTheUserEntersName(string Paygradename)
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.EnterName(Paygradename);
         }
-        
+
         [Given(@"the user clicks on the save button")]
         public void GivenTheUserClicksOnTheSaveButton()
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.ClickOnSave();
         }
-        
+
         [Given(@"the user clicks on the Add button")]
         public void GivenTheUserClicksOnTheAddButton()
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.ClickOnAdd();
         }
-        
+
         [Given(@"the user enters currency details ""(.*)""")]
-        public void GivenTheUserEntersCurrencyDetails(string p0)
+        public void GivenTheUserEntersCurrencyDetails(string USD)
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.EnterCurrency(USD);
         }
-        
+
         [When(@"the user clicks on save")]
         public void WhenTheUserClicksOnSave()
         {
-            ScenarioContext.Current.Pending();
+            addDeletePayGrades.ClickOnSaveTab();
         }
-        
-        [When(@"the user clicks on admin tab")]
-        public void WhenTheUserClicksOnAdminTab()
-        {
-            ScenarioContext.Current.Pending();
-        }
-        
-        [When(@"the user clicks on the job drop down list")]
-        public void WhenTheUserClicksOnTheJobDropDownList()
-        {
-            ScenarioContext.Current.Pending();
-        }
-        
-        [When(@"the user clicks on Pay Grades")]
-        public void WhenTheUserClicksOnPayGrades()
-        {
-            ScenarioContext.Current.Pending();
-        }
-        
-        [When(@"the user click in the radio button for fefe")]
-        public void WhenTheUserClickInTheRadioButtonForFefe()
-        {
-            ScenarioContext.Current.Pending();
-        }
-        
-        [When(@"the user clicks on the red Delete tab")]
-        public void WhenTheUserClicksOnTheRedDeleteTab()
-        {
-            ScenarioContext.Current.Pending();
-        }
-        
-        [When(@"the user clicks on the green OK button")]
-        public void WhenTheUserClicksOnTheGreenOKButton()
-        {
-            ScenarioContext.Current.Pending();
-        }
-        
+
         [Then(@"user paygrade should be added successfully")]
         public void ThenUserPaygradeShouldBeAddedSuccessfully()
         {
-            ScenarioContext.Current.Pending();
+            Assert.That(addDeletePayGrades.IsValidCurrencyDisplayed);
         }
-        
+
+        [When(@"the user clicks on admin tab")]
+        public void WhenTheUserClicksOnAdminTab()
+        {
+            addDeletePayGrades.ClickOnAdminTab();
+        }
+
+        [When(@"the user clicks on the job drop down list")]
+        public void WhenTheUserClicksOnTheJobDropDownList()
+        {
+            addDeletePayGrades.ClickOnJobDropdown();
+        }
+
+        [When(@"the user clicks on Pay Grades")]
+        public void WhenTheUserClicksOnPayGrades()
+        {
+            addDeletePayGrades.ClickOnPayGradesOption();
+        }
+
+        [When(@"the user click in the radio button for fefe")]
+        public void WhenTheUserClickInTheRadioButtonForFefe()
+        {
+            addDeletePayGrades.SelectPaygrade();
+        }
+
+        [When(@"the user clicks on the red Delete tab")]
+        public void WhenTheUserClicksOnTheRedDeleteTab()
+        {
+            addDeletePayGrades.ClickOnDelete();
+        }
+
+        [When(@"the user clicks on the green OK button")]
+        public void WhenTheUserClicksOnTheGreenOKButton()
+        {
+            addDeletePayGrades.ClickOnOKButton();
+        }
+
         [Then(@"the pay grade should be successfully deleted")]
         public void ThenThePayGradeShouldBeSuccessfullyDeleted()
         {
-            ScenarioContext.Current.Pending();
+            Assert.That(addDeletePayGrades.IsPaygradesPageDisplayed);
         }
     }
 }
