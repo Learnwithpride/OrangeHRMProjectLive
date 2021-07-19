@@ -19,13 +19,13 @@ namespace OrangeHRM.Hooks
         public void BeforeScenario()
         {
             ChromeOptions options = new ChromeOptions();
-            options.AddArgument("start-maximized");
-            options.AddArgument("--disable-gpu");
-            options.AddArgument("--headless");
-            //options.AddArgument("--incognito");
+            //options.AddArgument("start-maximized");
+            //options.AddArgument("--disable-gpu");
+            //options.AddArgument("--headless");
+            ////options.AddArgument("--incognito");
             
-            new DriverManager().SetUpDriver(new ChromeConfig());
-            Console.WriteLine("Setup");
+            ////new DriverManager().SetUpDriver(new ChromeConfig());
+            //Console.WriteLine("Setup");
 
             driver = new ChromeDriver(options);
             //driver.Manage().Window.Maximize();
@@ -34,7 +34,7 @@ namespace OrangeHRM.Hooks
         [AfterScenario]
         public void AfterScenario()
         {
-            driver.Quit();
+            //driver.Quit();
         }
     }
 }
