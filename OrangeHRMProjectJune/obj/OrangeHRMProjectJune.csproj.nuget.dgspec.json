@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {}
+    "C:\\Users\\44793\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {
+    "C:\\Users\\44793\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
+        "projectUniqueName": "C:\\Users\\44793\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
         "projectName": "OrangeHRMProjectJune",
-        "projectPath": "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
-        "packagesPath": "C:\\Users\\Grandma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\obj\\",
+        "projectPath": "C:\\Users\\44793\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
+        "packagesPath": "C:\\Users\\44793\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\44793\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Grandma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\44793\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -93,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
