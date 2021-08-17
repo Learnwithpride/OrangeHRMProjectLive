@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {}
+    "C:\\Users\\candi\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {
+    "C:\\Users\\candi\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
+        "projectUniqueName": "C:\\Users\\candi\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
         "projectName": "OrangeHRMProjectJune",
-        "projectPath": "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
-        "packagesPath": "C:\\Users\\Grandma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Grandma\\Source\\Repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\obj\\",
+        "projectPath": "C:\\Users\\candi\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\OrangeHRMProjectJune.csproj",
+        "packagesPath": "C:\\Users\\candi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\candi\\source\\repos\\OrangeHRMProjectLive\\OrangeHRMProjectJune\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Grandma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\candi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -59,7 +58,7 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[90.0.4430.2400, )"
+              "version": "[92.0.4515.4300, )"
             },
             "SpecFlow": {
               "target": "Package",
@@ -93,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
